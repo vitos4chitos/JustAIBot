@@ -1,108 +1,76 @@
 {
   "intents": [
-    {
-      "id": 6760,
-      "path": "/Bye",
-      "enabled": true,
-      "shared": false,
-      "phrases": [
-        {
-          "text": "goodbye"
-        },
-        {
-          "text": "bye"
-        },
-        {
-          "text": "see you"
-        }
-      ],
-      "patterns": []
+    {"id":4128265,
+      "path":"/Bye",
+      "enabled":true,
+      "shared":false,
+      "phrases":[
+        {"text":"пока"},
+        {"text":"до свидания"},
+        {"text":"увидимся"},
+        {"text":"bye"},
+        {"text":"До встречи"}],
+      "patterns":[],
+      "priority":0
     },
-    {
-      "id": 6761,
-      "path": "/Hello",
-      "enabled": true,
-      "shared": false,
-      "phrases": [
-        {
-          "text": "hi"
-        },
-        {
-          "text": "hello"
-        },
-        {
-          "text": "welcome"
-        }
-      ],
-      "patterns": []
+    {"id":4309679,
+      "path":"/Game",
+      "enabled":true,
+      "shared":false,
+      "phrases":[
+        {"text":"играть"},
+        {"text":"начать"},
+        {"text":"начать игру"},
+        {"text":"старт"},
+        {"text":"старт игры"},
+        {"text":"виселица"},
+        {"text":"игра"},
+        {"text":"play"},
+        {"text":"game"}],
+      "patterns":[],
+      "priority":0
     },
-    {
-      "id": 6762,
-      "path": "/Smalltalk",
-      "enabled": true,
-      "shared": false,
-      "phrases": [],
-      "patterns": []
+    {"id":4128264,
+      "path":"/Hello",
+      "enabled":true,
+      "shared":false,
+      "phrases":[
+        {"text":"привет"},
+        {"text":"здравствуйте"},
+        {"text":"добрый день"},
+        {"text":"Hi"},
+        {"text":"Добрый вечер"},
+        {"text":"Доброе утро"},
+        {"text":"Hello"}],
+      "patterns":[],
+      "priority":0
     },
-    {
-      "id": 6763,
-      "path": "/Smalltalk/Help",
-      "description": "",
-      "answer": "I'm a templated bot and can't do useful things yet...",
-      "enabled": true,
-      "shared": false,
-      "phrases": [
-        {
-          "text": "help"
-        },
-        {
-          "text": "what can you do"
-        },
-        {
-          "text": "your functions"
-        },
-        {
-          "text": "your possibilities"
-        },
-        {
-          "text": "tell me about you"
-        }
-      ],
-      "patterns": []
+    {"id":4309616,
+      "path":"/Help",
+      "enabled":true,
+      "shared":false,
+      "phrases":[
+        {"text":"Помощь"},
+        {"text":"что ты умеешь?"}
+      ,{"text":"что ты умеешь"},
+        {"text":"что ты можешь"},
+        {"text":"что ты можешь?"},
+        {"text":"как играть?"},
+        {"text":"как играть"},
+        {"text":"Help"},{"text":"команды"}],
+      "patterns":[],
+      "priority":0
     },
-    {
-      "id": 6764,
-      "path": "/Smalltalk/HowAreYou",
-      "answer": "I'm fine! Thank you!",
-      "enabled": true,
-      "shared": false,
-      "phrases": [
-        {
-          "text": "how are you"
-        }
-      ],
-      "patterns": []
-    },
-    {
-      "id": 6765,
-      "path": "/Smalltalk/WhatIsYourName",
-      "answer": "I don't have a name yet, I'm just a bot",
-      "enabled": true,
-      "shared": false,
-      "phrases": [
-        {
-          "text": "what is your name"
-        },
-        {
-          "text": "how to name you"
-        },
-        {
-          "text": "say me your name"
-        }
-      ],
-      "patterns": []
-    }
-  ],
+    {"id":4309672,
+      "path":"/Rules",
+      "enabled":true,
+      "shared":false,
+      "phrases":[{"text":"правила"}
+      ,{"text":"rules"},
+        {"text":"правила игры"},
+        {"text":"правила виселицы"}],
+      "patterns":[],
+      "priority":0}],
   "entities": [],
   "enabledSystemEntities": [
     "duckling.number",
