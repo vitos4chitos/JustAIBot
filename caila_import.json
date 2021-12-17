@@ -1,16 +1,4 @@
 {
-  "project": {
-    "id": "jaicf-jaicp-caila-template",
-    "name": "jaicf-jaicp-caila-template",
-    "folder": "/"
-  },
-  "settings": {
-    "language": "en",
-    "spellingCorrection": false,
-    "classificationAlgorithm": "sts",
-    "timezone": "UTC",
-    "shared": false
-  },
   "intents": [
     {
       "id": 6760,
